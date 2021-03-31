@@ -7,7 +7,7 @@ import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 
 public class FBLoginDef extends TestBase {
-	//FBLoginPage loginpage;
+	FBLoginPage loginpage;
 	
 
 	@Given("^Humnan launch browser and get \"([^\"]*)\"$")
